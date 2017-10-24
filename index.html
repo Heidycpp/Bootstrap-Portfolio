@@ -2,26 +2,54 @@
 <html>
  <head>
  	<title>My Portfolio</title>
+ 	<link rel="stylesheet" href="https://bootswatch.com/slate/bootstrap.min.css">
  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
- 	<!--nav bar-->
-  <header>
-    <section id="header">
-      <aside>Heidy Palacios</aside>
-      <nav class="nav">
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </section>
-  </header>
+
  </head>
 <body>
-	<!--header-->
-	<header>
-		<section id= "section-left">
-			<h2>About Me</h2>
-			<!--image and paragraph-->
-			<p>
+    <!--<nav> tag  start with classes .navbar and .navbar-default and .navbar-fixed-top-->  
+    <nav class="navbar navbar-default navbar-fixed-top">  
+        <div class="container-fluid">  
+            <!--Navbar Header Start Here-->  
+            <div class="navbar-header">  
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MainNavBar">  
+                    <span class="icon-bar"></span>  
+                    <span class="icon-bar"></span>  
+                    <span class="icon-bar"></span>  
+                </button>  
+                  <section id="header">
+      <aside>Heidy Palacios</aside>
+    </section>
+            </div>  
+            <!--Navbar Header End Here-->  
+            <!--Menu Start Here-->  
+            <div class="collapse navbar-collapse" id="MainNavBar">  
+                <ul class="nav navbar-nav navbar-right">  
+                    <li class="active"><a href="#">About</a></li>  
+                    <li><a href="#">Portfolio</a></li>  
+                    <li><a href="#">Contact</a></li>   
+                </ul>  
+            </div>  
+            <!--Menu End Here-->  
+        </div>  
+    </nav> 
+
+    <!--<nav> tag end-->  
+    <!--Default Navbar End Here-->
+    <div class="container">
+        <div class="row">
+            <div calss="col-md-8 col-4"></div>
+
+	<!--header begins-->
+    <div class="container">
+        <div class="page-header">
+        <section id= "section-left">
+            <h2>About Me</h2>
+        </section>
+
+<div class="jumbotron">
+    <section id= "section-left">
+			<p class="card-text">
 				<img src="assets/images/IMG_0131 (2).JPG" height= "200px" width= "200px" class= "TextWrap">
 			
 				My Name is Heidy Palacios. I am a soon to be a 40-year-old that decided to make a big change in my life. I always liked designing and creating things and combining technology into it is even more appealing to me. Since I was in my 20s I always liked creating videos and editing them, I find the whole process rewarding and that led me to be curious about building websites and/or editing them. 
@@ -30,6 +58,10 @@
 			<p>
 				As I got older my interest grew but my circumstances did not allow me to peruse my curiosity when I was younger due to family responsibilities. This will be a difficult journey but one that I look forward to embarking on and learn as much as I can through my journey. I look forward to the challenges as they can only help me get better.
 			</p>
+        </div>
+    </div>
+</div>
+			
 			<!--thumbnails-->
 		</section>
 		<section id= "section-right">
