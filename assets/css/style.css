@@ -1,7 +1,9 @@
+/*index paragraph textwrap*/
 .TextWrap {
         float: left;
         margin: 10px;
 }
+/*index,portfolio and contact*/
 body {
   font-size: 24px;
   line-height: 32px;
@@ -13,6 +15,7 @@ body {
   width: 90%;
   margin-right: 200px;
 }
+/*Heidy header*/
 #header {
   float: left;
   width: 70%;
@@ -24,12 +27,13 @@ body {
   font-family: 'Georgia';
   font-size: 28px;
 }
-
+/*nav bar*/
 .navbar-default {
     background-color: white;
     border-color: grey;
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete_seamless.png");
 }
+/*Heidy header*/
 .page-header {
   float: left;
   width: 70%;
@@ -41,31 +45,26 @@ body {
   font-size: 28px;
   border-style: none none none none;
 }
+/*Bio image and paragraph*/
 .jumbotron {
   background-color: #ffffff;
   color: grey;
   border-style: none none none none;
 }
+/*second paragraph*/
 p {
   color: #777777;
   width: 130%;
   margin-left: 150px;
   text-align: left;
 }
-.card-text {
-  text-align: left;
-  font-family: 'Arial';
-  font-size: 10px;
-  color: #777777;
-  padding: 0px;
-  width: 130%;
-  margin-left: 150px;
-}
+/*index jumbotron, portfolio images, contact form*/
 .col-md-8 {
   margin-right: 200px;
   background-color: #ffffff;
   color: #4aaaa5;
 }
+/*connect with me section*/
 .col-md-4 {
   float: right;
   margin-left: 200px;
@@ -74,9 +73,18 @@ p {
   color: #4aaaa5;
   width: 23%;
 }
+/*index jumbotron,portfolio images,contact header*/
 #section-left {
   border-style: none none solid none;
 }
+/*images in portfolio*/
+.item-name {
+  float: center;
+  font-family: "Arial";
+  color: #4aaaa5;
+  font-size: 28px;
+}
+/*footer*/
 footer {
   background-color: #666666;
   padding: 15px;
@@ -87,10 +95,4 @@ footer {
   border-style: solid none none none;
   border-top-color: #4aaaa5;
   border-width: 5px;
-}
-.item-name {
-  float: center;
-  font-family: "Arial";
-  color: #4aaaa5;
-  font-size: 28px;
 }
